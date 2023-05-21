@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    background-image: url(../imagens/foto-batman.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.contain {
+    display: flex;
+}
+
+section img {
+    width: 130px;
+    padding: 20px;
+    margin-left: 60px;
+}
+
+section menu {
+    margin: auto;
+    text-align: right;
+    margin-bottom: 90px;
+    margin-left: 700px;
+}
+
+section menu > a {
+    text-decoration: none;
+    color: white;
+    padding: 40px;
+}
+
+#bot1 {
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: red;
+}
+
+
+
+.contain2 {
+    padding-top: 160px;
+    padding-left: 160px;
+}
+
+.contain2 h1 {
+    color: white;
+    font-size: 40pt;
+}
+
+.contain2 p {
+    color: white;
+    width: 500px;
+}
+
+.contain2 input#txt1 {
+    font-size: 13pt;
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.contain2 input#btn1 {
+    background-color: red;
+    font-size: 13pt;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
